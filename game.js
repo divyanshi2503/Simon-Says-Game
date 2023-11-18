@@ -44,7 +44,7 @@ function levelUp(){
     h2.innerText= `Level ${level}`;
     h3.innerText= `Maximum Score:${maxscore}`;
     //random button
-    let randomIndx= Math.floor(Math.random()*3);
+    let randomIndx= Math.floor(Math.random()*4);
     let randomColor= btns[randomIndx];
     let randomBtn= document.querySelector(`.${randomColor}`);
     gameSeq.push(randomColor);    
